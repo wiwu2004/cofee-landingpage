@@ -217,6 +217,29 @@ nav a{
   font-size: 12px;
 }
 
+.filtros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.filtros button {
+  padding: 10px 20px;
+  border: 1px solid #75492f;
+  border-radius: 24px;
+  background-color: transparent;
+  color: #75492f;
+  font: inherit;
+  cursor: pointer;
+}
+
+.filtros button.ativo {
+  background-color: #75492f;
+  color: #fff8f0;
+}
+
 /* Tablets e telas menores */
 @media (max-width: 768px) {
 
@@ -266,6 +289,8 @@ nav a{
 
   
 }
+
+
 
 /* Celulares */
 @media (max-width: 480px) {
