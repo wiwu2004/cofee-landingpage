@@ -1,0 +1,76 @@
+.pagina-cardapio {
+    font-family: 'Lato', sans-serif;
+    justify-content: flex-start;
+  padding: 48px 8%;
+  background-color: #f3e9df;
+  color: #35251b;
+  text-align: left;
+  min-height: 100svh;
+background-size: auto 100svh;
+background-position: right top;
+background-repeat: repeat-y;
+}
+
+.pagina-cardapio h1 {
+  font-family: 'Cinzel Decorative', Georgia, serif;
+  font-weight: 400;
+  font-size: 48px;
+  margin: 8px 0 32px;
+}
+
+.cardapio-lista {
+  max-width: 650px;
+}
+
+.item-cardapio {
+  padding: 24px 0;
+  border-bottom: 1px dotted #b59b85;
+}
+
+.item-cardapio h2 {
+  font-family: 'Cinzel Decorative', Georgia, serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #35251b;
+  margin: 0 0 10px;
+}
+
+.item-cardapio-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+}
+
+.item-cardapio-info p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.item-cardapio-preco {
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.cardapio-layout {
+  position: relative;
+  margin-top: 32px;
+}
+
+.voltar-inicio {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #75492f;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.voltar-inicio:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .cardapio-layout {
+    gap: 24px;
+  }
+}
