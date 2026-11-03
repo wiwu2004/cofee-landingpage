@@ -343,3 +343,9 @@ nav a{
     text-align: center;
   }
 }
+.produtos .produto-detalhe {
+  margin: 0 0 12px;
+  color: #35251b;
+  font-weight: normal;
+  line-height: 1.5;
+}
