@@ -69,6 +69,35 @@ background-repeat: repeat-y;
   text-decoration: underline;
 }
 
+.busca-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.busca-input {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  padding: 10px 14px;
+  border: 1px solid #b59b85;
+  border-radius: 8px;
+  background-color: #fff8f0;
+  color: #35251b;
+  font: inherit;
+}
+
+.busca-input:focus-visible {
+  outline: 2px solid #75492f;
+  outline-offset: 3px;
+}
+
+.pagina-cardapio .filtros {
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .cardapio-layout {
     gap: 24px;
