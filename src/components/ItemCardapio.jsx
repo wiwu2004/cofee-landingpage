@@ -1,4 +1,4 @@
-function ItemCardapio({produto}) {
+function ItemCardapio({produto, onAdicionar}) {
     return (
         <article className="item-cardapio">
             <h2>{produto.nome}</h2>
@@ -13,6 +13,8 @@ function ItemCardapio({produto}) {
                     })}
                 </span>
             </div>
+            <button type="button" onClick={onAdicionar}>Adicionar ao pedido</button>
+
         </article>
     )
 }
